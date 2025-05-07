@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		025A906B2DCB3105007D36C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025A90552DCB3102007D36C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025A905C2DCB3102007D36C0;
+			remoteInfo = MyHananeelCinta;
+		};
+		025A90752DCB3105007D36C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 025A90552DCB3102007D36C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 025A905C2DCB3102007D36C0;
+			remoteInfo = MyHananeelCinta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		025A905D2DCB3102007D36C0 /* MyHananeelCinta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHananeelCinta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		025A906A2DCB3105007D36C0 /* MyHananeelCintaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHananeelCintaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		025A90742DCB3105007D36C0 /* MyHananeelCintaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHananeelCintaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		025A905F2DCB3102007D36C0 /* MyHananeelCinta */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyHananeelCinta;
+			sourceTree = "<group>";
+		};
+		025A906D2DCB3105007D36C0 /* MyHananeelCintaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyHananeelCintaTests;
+			sourceTree = "<group>";
+		};
+		025A90772DCB3105007D36C0 /* MyHananeelCintaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MyHananeelCintaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		025A905A2DCB3102007D36C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025A90672DCB3105007D36C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025A90712DCB3105007D36C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		025A90542DCB3102007D36C0 = {
+			isa = PBXGroup;
+			children = (
+				025A905F2DCB3102007D36C0 /* MyHananeelCinta */,
+				025A906D2DCB3105007D36C0 /* MyHananeelCintaTests */,
+				025A90772DCB3105007D36C0 /* MyHananeelCintaUITests */,
+				025A905E2DCB3102007D36C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		025A905E2DCB3102007D36C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				025A905D2DCB3102007D36C0 /* MyHananeelCinta.app */,
+				025A906A2DCB3105007D36C0 /* MyHananeelCintaTests.xctest */,
+				025A90742DCB3105007D36C0 /* MyHananeelCintaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		025A905C2DCB3102007D36C0 /* MyHananeelCinta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025A907E2DCB3105007D36C0 /* Build configuration list for PBXNativeTarget "MyHananeelCinta" */;
+			buildPhases = (
+				025A90592DCB3102007D36C0 /* Sources */,
+				025A905A2DCB3102007D36C0 /* Frameworks */,
+				025A905B2DCB3102007D36C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				025A905F2DCB3102007D36C0 /* MyHananeelCinta */,
+			);
+			name = MyHananeelCinta;
+			packageProductDependencies = (
+			);
+			productName = MyHananeelCinta;
+			productReference = 025A905D2DCB3102007D36C0 /* MyHananeelCinta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		025A90692DCB3105007D36C0 /* MyHananeelCintaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025A90812DCB3105007D36C0 /* Build configuration list for PBXNativeTarget "MyHananeelCintaTests" */;
+			buildPhases = (
+				025A90662DCB3105007D36C0 /* Sources */,
+				025A90672DCB3105007D36C0 /* Frameworks */,
+				025A90682DCB3105007D36C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025A906C2DCB3105007D36C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				025A906D2DCB3105007D36C0 /* MyHananeelCintaTests */,
+			);
+			name = MyHananeelCintaTests;
+			packageProductDependencies = (
+			);
+			productName = MyHananeelCintaTests;
+			productReference = 025A906A2DCB3105007D36C0 /* MyHananeelCintaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		025A90732DCB3105007D36C0 /* MyHananeelCintaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025A90842DCB3105007D36C0 /* Build configuration list for PBXNativeTarget "MyHananeelCintaUITests" */;
+			buildPhases = (
+				025A90702DCB3105007D36C0 /* Sources */,
+				025A90712DCB3105007D36C0 /* Frameworks */,
+				025A90722DCB3105007D36C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				025A90762DCB3105007D36C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				025A90772DCB3105007D36C0 /* MyHananeelCintaUITests */,
+			);
+			name = MyHananeelCintaUITests;
+			packageProductDependencies = (
+			);
+			productName = MyHananeelCintaUITests;
+			productReference = 025A90742DCB3105007D36C0 /* MyHananeelCintaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		025A90552DCB3102007D36C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					025A905C2DCB3102007D36C0 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					025A90692DCB3105007D36C0 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 025A905C2DCB3102007D36C0;
+					};
+					025A90732DCB3105007D36C0 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 025A905C2DCB3102007D36C0;
+					};
+				};
+			};
+			buildConfigurationList = 025A90582DCB3102007D36C0 /* Build configuration list for PBXProject "MyHananeelCinta" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 025A90542DCB3102007D36C0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 025A905E2DCB3102007D36C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				025A905C2DCB3102007D36C0 /* MyHananeelCinta */,
+				025A90692DCB3105007D36C0 /* MyHananeelCintaTests */,
+				025A90732DCB3105007D36C0 /* MyHananeelCintaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		025A905B2DCB3102007D36C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025A90682DCB3105007D36C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025A90722DCB3105007D36C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		025A90592DCB3102007D36C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025A90662DCB3105007D36C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		025A90702DCB3105007D36C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		025A906C2DCB3105007D36C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025A905C2DCB3102007D36C0 /* MyHananeelCinta */;
+			targetProxy = 025A906B2DCB3105007D36C0 /* PBXContainerItemProxy */;
+		};
+		025A90762DCB3105007D36C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 025A905C2DCB3102007D36C0 /* MyHananeelCinta */;
+			targetProxy = 025A90752DCB3105007D36C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		025A907C2DCB3105007D36C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		025A907D2DCB3105007D36C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		025A907F2DCB3105007D36C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hananeelcinta.MyHananeelCinta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		025A90802DCB3105007D36C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hananeelcinta.MyHananeelCinta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		025A90822DCB3105007D36C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hananeelcinta.MyHananeelCintaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHananeelCinta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyHananeelCinta";
+			};
+			name = Debug;
+		};
+		025A90832DCB3105007D36C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hananeelcinta.MyHananeelCintaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHananeelCinta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyHananeelCinta";
+			};
+			name = Release;
+		};
+		025A90852DCB3105007D36C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hananeelcinta.MyHananeelCintaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyHananeelCinta;
+			};
+			name = Debug;
+		};
+		025A90862DCB3105007D36C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hananeelcinta.MyHananeelCintaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyHananeelCinta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025A90582DCB3102007D36C0 /* Build configuration list for PBXProject "MyHananeelCinta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025A907C2DCB3105007D36C0 /* Debug */,
+				025A907D2DCB3105007D36C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025A907E2DCB3105007D36C0 /* Build configuration list for PBXNativeTarget "MyHananeelCinta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025A907F2DCB3105007D36C0 /* Debug */,
+				025A90802DCB3105007D36C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025A90812DCB3105007D36C0 /* Build configuration list for PBXNativeTarget "MyHananeelCintaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025A90822DCB3105007D36C0 /* Debug */,
+				025A90832DCB3105007D36C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		025A90842DCB3105007D36C0 /* Build configuration list for PBXNativeTarget "MyHananeelCintaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025A90852DCB3105007D36C0 /* Debug */,
+				025A90862DCB3105007D36C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 025A90552DCB3102007D36C0 /* Project object */;
+}
