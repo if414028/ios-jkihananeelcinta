@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0287B9442DDC6BB500900815 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0287B9432DDC6BB500900815 /* GoogleService-Info.plist */; };
+		0287B95B2DDC721D00900815 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 0287B95A2DDC721D00900815 /* FirebaseCore */; };
+		0287B95D2DDC722F00900815 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 0287B95C2DDC722F00900815 /* FirebaseAuth */; };
+		0287B95F2DDC723F00900815 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 0287B95E2DDC723F00900815 /* FirebaseFirestore */; };
+		0287B9612DDC725700900815 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 0287B9602DDC725700900815 /* FirebaseDatabase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		025A906B2DCB3105007D36C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +35,7 @@
 		025A905D2DCB3102007D36C0 /* MyHananeelCinta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHananeelCinta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		025A906A2DCB3105007D36C0 /* MyHananeelCintaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHananeelCintaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025A90742DCB3105007D36C0 /* MyHananeelCintaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHananeelCintaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0287B9432DDC6BB500900815 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +61,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0287B95B2DDC721D00900815 /* FirebaseCore in Frameworks */,
+				0287B95D2DDC722F00900815 /* FirebaseAuth in Frameworks */,
+				0287B9612DDC725700900815 /* FirebaseDatabase in Frameworks */,
+				0287B95F2DDC723F00900815 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +88,11 @@
 		025A90542DCB3102007D36C0 = {
 			isa = PBXGroup;
 			children = (
+				0287B9432DDC6BB500900815 /* GoogleService-Info.plist */,
 				025A905F2DCB3102007D36C0 /* MyHananeelCinta */,
 				025A906D2DCB3105007D36C0 /* MyHananeelCintaTests */,
 				025A90772DCB3105007D36C0 /* MyHananeelCintaUITests */,
+				0287B9592DDC721D00900815 /* Frameworks */,
 				025A905E2DCB3102007D36C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +105,13 @@
 				025A90742DCB3105007D36C0 /* MyHananeelCintaUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0287B9592DDC721D00900815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +134,10 @@
 			);
 			name = MyHananeelCinta;
 			packageProductDependencies = (
+				0287B95A2DDC721D00900815 /* FirebaseCore */,
+				0287B95C2DDC722F00900815 /* FirebaseAuth */,
+				0287B95E2DDC723F00900815 /* FirebaseFirestore */,
+				0287B9602DDC725700900815 /* FirebaseDatabase */,
 			);
 			productName = MyHananeelCinta;
 			productReference = 025A905D2DCB3102007D36C0 /* MyHananeelCinta.app */;
@@ -195,6 +221,9 @@
 			);
 			mainGroup = 025A90542DCB3102007D36C0;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0287B9452DDC6FE200900815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 025A905E2DCB3102007D36C0 /* Products */;
 			projectDirPath = "";
@@ -212,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0287B9442DDC6BB500900815 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +580,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0287B9452DDC6FE200900815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0287B95A2DDC721D00900815 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0287B9452DDC6FE200900815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		0287B95C2DDC722F00900815 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0287B9452DDC6FE200900815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		0287B95E2DDC723F00900815 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0287B9452DDC6FE200900815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		0287B9602DDC725700900815 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0287B9452DDC6FE200900815 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 025A90552DCB3102007D36C0 /* Project object */;
 }
